@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// == Comparação de igualdade
+// != Comparação de diferença
+// > comparação de maior
+// < comparação de menor
+// >= comparação de maior igual
+// <= comparalçao de menor igual
+
+int main() {
+  int a ;
+  printf("Digite um  número: ");
+  scanf("%d", &a);
+
+
+  if (a!=0)
+  {
+    printf("A variável 'a' ela é diferente de 0");
+  }
+    else
+  {
+    printf("A variável 'a' ela é igual a 0");
+  }
+  return 0;
+}
